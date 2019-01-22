@@ -6,6 +6,12 @@ namespace L1_Project
     {
         static void Main(string[] args)
         {
+            // Exercise 1
+            // Calculate the area of a triangle using Heron's formula
+            // Area = SquareRoot(s * (s-a) * (s-b) * (s-c)) where s=(a+b+c)/2 and a,b,c are the sides of the triangle
+            // Eg. a=3, b=4, c=5. Area = 6
+
+
             // Exercise 2
             // Input a number (n) from the user and check if it is even or odd.
 
@@ -29,6 +35,11 @@ namespace L1_Project
             }
 
             Console.ReadKey(true);
+
+            // Exercise 3
+            // Input 3 numbers from the user (x,y,z) and find the greatest of them.
+
+            // Write your code here
         }
     }
 }
